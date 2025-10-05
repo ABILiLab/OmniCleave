@@ -1,0 +1,103 @@
+A01.009,cathepsin D
+A01.010,cathepsin E
+A32.002,RC1339 g.p. (Rickettsia conorii)
+C01.009,cathepsin V
+C01.032,cathepsin L
+C01.034,cathepsin S
+C01.036,cathepsin K
+C01.060,cathepsin B
+C01.070,dipeptidyl-peptidase I
+C02.001,calpain-1
+C02.002,calpain-2
+C13.004,"legumain, animal-type"
+C14.001,caspase-1
+C14.003,caspase-3
+C14.004,caspase-7
+C14.005,caspase-6
+C14.006,caspase-2
+C14.009,caspase-8
+C25.002,gingipain K
+G01.002,aspergilloglutamic peptidase
+M04.001,thermolysin
+M04.005,pseudolysin
+M09.002,collagenase G/A (Clostridium histolyticum)
+M09.003,bacterial collagenase H
+M09.005,collagenase ColT (Clostridium tetani)
+M10.001,matrix metallopeptidase-1
+M10.002,matrix metallopeptidase-8
+M10.003,matrix metallopeptidase-2
+M10.004,matrix metallopeptidase-9
+M10.005,matrix metallopeptidase-3
+M10.008,matrix metallopeptidase-7
+M10.009,matrix metallopeptidase-12
+M10.013,matrix metallopeptidase-13
+M10.014,membrane-type matrix metallopeptidase-1
+M12.001,astacin
+M12.002,meprin alpha subunit
+M12.004,meprin beta subunit
+M12.005,procollagen C-peptidase
+M12.032,LAST peptidase (Limulus-type)
+M12.033,LAST_MAM peptidase (Limulus-type)
+M12.140,bothropasin
+M12.144,atrolysin C
+M12.210,ADAM10 peptidase
+M12.217,ADAM17 peptidase
+M12.221,ADAMTS4 peptidase
+M12.225,ADAMTS5 peptidase
+M13.001,neprilysin
+M13.002,endothelin-converting enzyme 1
+M14.017,carboxypeptidase A4
+M16.002,insulysin
+M16.003,mitochondrial processing peptidase beta-subunit
+M16.009,eupitrilysin
+M16.016,YMXG peptidase
+M24.001,methionyl aminopeptidase 1 (Escherichia-type)
+M24.002,methionyl aminopeptidase 2
+M24.026,aminopeptidase P3
+M24.028,mitochondrial methionyl aminopeptidase
+M35.004,peptidyl-Lys metallopeptidase
+N10.002,intein-containing replicative DNA helicase precursor
+N10.004,intein-containing translation initiation factor IF-2 precursor
+S01.001,chymotrypsin A (cattle-type)
+S01.010,granzyme B (Homo sapiens-type)
+S01.017,kallikrein-related peptidase 5
+S01.021,DESC1 peptidase
+S01.029,kallikrein-related peptidase 14
+S01.047,human airway trypsin-like peptidase
+S01.072,matriptase-3
+S01.131,elastase-2
+S01.133,cathepsin G
+S01.134,myeloblastin
+S01.135,granzyme A
+S01.136,"granzyme B, rodent-type"
+S01.139,granzyme M
+S01.140,chymase (Homo sapiens-type)
+S01.151,trypsin 1
+S01.153,elastase-1
+S01.161,kallikrein-related peptidase 2
+S01.162,kallikrein-related peptidase 3
+S01.212,plasma kallikrein
+S01.216,coagulation factor Xa
+S01.217,thrombin
+S01.224,hepsin
+S01.233,plasmin
+S01.236,kallikrein-related peptidase 6
+S01.251,kallikrein-related peptidase 4
+S01.269,glutamyl endopeptidase I
+S01.278,HtrA2 peptidase
+S01.280,lysyl endopeptidase (bacteria)
+S01.302,matriptase
+S01.308,matriptase-2
+S08.001,subtilisin Carlsberg
+S08.070,kexin
+S08.071,furin
+S08.072,PCSK1 peptidase
+S08.073,PCSK2 peptidase
+S08.074,PCSK4 peptidase
+S08.075,PCSK6 peptidase
+S08.076,PCSK5 peptidase
+S08.077,PCSK7 peptidase
+S08.109,KPC2-type peptidase
+S26.001,signal peptidase I
+S26.008,thylakoidal processing peptidase
+S26.010,signalase (animal) 21 kDa component

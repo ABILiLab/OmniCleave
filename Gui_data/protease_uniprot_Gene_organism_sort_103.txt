@@ -1,0 +1,104 @@
+Proceate,Uniprot,Gene name,Organism
+M12.001,P07584,,Astacus astacus
+G01.002,P24665,,Aspergillus niger
+M12.144,P15167,,Crotalus atrox
+M12.140,O93523,,Bothrops jararaca
+S01.001,P00766,,Bos taurus
+S01.280,P15636,,Achromobacter lyticus
+S01.236,CH466603,,Mus musculus
+A32.002,NC_003103,,Rickettsia conorii
+S26.008,O04348,TPP1,Arabidopsis thaliana
+M35.004,Q9Y7F7,MEP,Armillaria mellea
+S08.001,P00780,subC,Bacillus licheniformis
+M04.001,P00800,npr,Bacillus thermoproteolyticus
+M13.002,P42891,ECE1,Bos taurus
+S01.151,P00760,PRSS1,Bos taurus
+M12.210,Q10741,ADAM10,Bos taurus
+S08.109,G5ECN9,egl-3,Caenorhabditis elegans
+M09.005,Q899Y1,colT,Clostridium tetani (strain Massachusetts / E88)
+M24.001,P0AE18,map,Escherichia coli (strain K12)
+S26.001,P00803,lepB,Escherichia coli (strain K12)
+M09.002,Q9X721,colG,Hathewaya histolytica
+M09.003,Q46085,colH,Hathewaya histolytica
+S01.133,P08311,CTSG,Homo sapiens
+M24.002,P50579,METAP2,Homo sapiens
+A01.010,P14091,CTSE,Homo sapiens
+M13.001,P08473,MME,Homo sapiens
+S01.216,P00742,F10,Homo sapiens
+M12.005,P13497,BMP1,Homo sapiens
+S01.233,P00747,PLG,Homo sapiens
+S08.075,P29122,PCSK6,Homo sapiens
+C14.005,P55212,CASP6,Homo sapiens
+M14.017,Q9UI42,CPA4,Homo sapiens
+M10.014,P50281,MMP14,Homo sapiens
+M16.002,P14735,IDE,Homo sapiens
+M12.221,O75173,ADAMTS4,Homo sapiens
+A01.009,P07339,CTSD,Homo sapiens
+M16.009,Q5JRX3,PITRM1,Homo sapiens
+M10.002,P22894,MMP8,Homo sapiens
+M10.008,P09237,MMP7,Homo sapiens
+S01.017,Q9Y337,KLK5,Homo sapiens
+S01.212,P03952,KLKB1,Homo sapiens
+S08.072,P29120,PCSK1,Homo sapiens
+M12.217,P78536,ADAM17,Homo sapiens
+S01.140,P23946,CMA1,Homo sapiens
+M24.026,Q9NQH7,XPNPEP3,Homo sapiens
+C14.009,Q14790,CASP8,Homo sapiens
+S01.010,P10144,GZMB,Homo sapiens
+S01.162,P07288,KLK3,Homo sapiens
+M10.003,P08253,MMP2,Homo sapiens
+S01.217,P00734,F2,Homo sapiens
+S01.251,Q9Y5K2,KLK4,Homo sapiens
+M10.001,P03956,MMP1,Homo sapiens
+C01.032,P07711,CTSL,Homo sapiens
+C01.009,O60911,CTSV,Homo sapiens
+M10.005,P08254,MMP3,Homo sapiens
+S01.131,P08246,ELANE,Homo sapiens
+S01.302,Q9Y5Y6,ST14,Homo sapiens
+M12.225,Q9UNA0,ADAMTS5,Homo sapiens
+S08.071,P09958,FURIN,Homo sapiens
+C14.004,P55210,CASP7,Homo sapiens
+S08.073,P16519,PCSK2,Homo sapiens
+C01.036,P43235,CTSK,Homo sapiens
+S01.308,Q8IU80,TMPRSS6,Homo sapiens
+S01.134,P24158,PRTN3,Homo sapiens
+S01.029,Q9P0G3,KLK14,Homo sapiens
+C14.003,P42574,CASP3,Homo sapiens
+M10.004,P14780,MMP9,Homo sapiens
+C02.001,P07384,CAPN1,Homo sapiens
+S01.135,P12544,GZMA,Homo sapiens
+C01.034,P25774,CTSS,Homo sapiens
+C13.004,Q99538,LGMN,Homo sapiens
+S01.278,O43464,HTRA2,Homo sapiens
+C01.060,P07858,CTSB,Homo sapiens
+S01.161,P20151,KLK2,Homo sapiens
+S01.224,P05981,HPN,Homo sapiens
+C02.002,P17655,CAPN2,Homo sapiens
+M12.032,B4F319,astl,Limulus polyphemus
+M12.033,B4F320,astl-mam,Limulus polyphemus
+S01.136,P04187,Gzmb,Mus musculus
+M10.013,P33435,Mmp13,Mus musculus
+C14.006,P29594,Casp2,Mus musculus
+M10.009,P34960,Mmp12,Mus musculus
+S08.074,P29121,Pcsk4,Mus musculus
+S01.072,Q8BIK6,Tmprss7,Mus musculus
+M12.002,P28825,Mep1a,Mus musculus
+S01.021,Q5S248,Tmprss11e,Mus musculus
+M24.028,Q9CPW9,Metap1d,Mus musculus
+M12.004,Q61847,Mep1b,Mus musculus
+C25.002,P72194,kgp,Porphyromonas gingivalis
+M04.005,P14756,lasB,Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)
+N10.004,O58822,infB,Pyrococcus horikoshii (strain ATCC 700860 / DSM 12428 / JCM 9974 / NBRC 100139 / OT-3)
+S08.076,P41413,Pcsk5,Rattus norvegicus
+C01.070,P80067,Ctsc,Rattus norvegicus
+S01.139,Q03238,Gzmm,Rattus norvegicus
+S08.077,Q62849,Pcsk7,Rattus norvegicus
+C14.001,P43527,Casp1,Rattus norvegicus
+S01.047,Q8VHJ4,Tmprss11d,Rattus norvegicus
+M16.016,O05945,RP219,Rickettsia prowazekii (strain Madrid E)
+S26.010,P15367,SEC11,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+M16.003,P10507,MAS1,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+S08.070,P13134,KEX2,Saccharomyces cerevisiae (strain ATCC 204508 / S288c)
+S01.269,P0C1U8,sspA,Staphylococcus aureus
+S01.153,P00772,CELA1,Sus scrofa
+N10.002,Q55418,dnaB,Synechocystis sp. (strain PCC 6803 / Kazusa)
