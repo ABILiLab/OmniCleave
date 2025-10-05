@@ -47,8 +47,8 @@ conda activate OmniCleave
 
 2. Clone the project:
 ```bash
-git clone [project-url]
-cd OmniCleave_GUI/GUI
+git clone https://github.com/ABILiLab/OmniCleave.git
+cd OmniCleave
 ```
 
 ### Dependency Installation
@@ -109,7 +109,7 @@ OmniCleave also supports command line execution for batch processing and automat
 #### Basic Command Line Syntax
 
 ```bash
-python procleaveHub11.py --inputpath <PDB_FILE> --outputpath <OUTPUT_DIR> --proteases_str <PROTEASES> [OPTIONS]
+python OmniCleave.py --inputpath <PDB_FILE> --outputpath <OUTPUT_DIR> --proteases_str <PROTEASES> [OPTIONS]
 ```
 
 #### Command Line Arguments
@@ -138,12 +138,12 @@ python procleaveHub11.py --inputpath <PDB_FILE> --outputpath <OUTPUT_DIR> --prot
 
 **Basic prediction with default parameters:**
 ```bash
-python procleaveHub11.py --inputpath ./data/protein.pdb --outputpath ./results
+python OmniCleave.py --inputpath ./data/protein.pdb --outputpath ./results
 ```
 
 **Multi-protease prediction with specific positions:**
 ```bash
-python procleaveHub11.py \
+python OmniCleave.py \
     --inputpath ./data/protein.pdb \
     --pdb_path ./data \
     --outputpath ./results \
@@ -155,7 +155,7 @@ python procleaveHub11.py \
 
 **Human protease prediction:**
 ```bash
-python procleaveHub11.py \
+python OmniCleave.py \
     --inputpath ./data/protein.pdb \
     --pdb_path ./data \
     --outputpath ./results \
@@ -167,7 +167,7 @@ python procleaveHub11.py \
 
 **Predict all positions with multiple proteases:**
 ```bash
-python procleaveHub11.py \
+python OmniCleave.py \
     --inputpath ./data/protein.pdb \
     --pdb_path ./data \
     --outputpath ./results \
@@ -179,7 +179,7 @@ python procleaveHub11.py \
 
 **High-throughput batch processing:**
 ```bash
-python procleaveHub11.py \
+python OmniCleave.py \
     --inputpath ./data/batch_protein.pdb \
     --pdb_path ./data \
     --outputpath ./batch_results \
@@ -214,7 +214,7 @@ For batch processing multiple PDB files, you can create scripts for different sc
 for pdb_file in ./data/*.pdb; do
     filename=$(basename "$pdb_file" .pdb)
     echo "Processing $filename..."
-    python procleaveHub11.py \
+    python OmniCleave.py \
         --inputpath "$pdb_file" \
         --pdb_path ./data \
         --outputpath "./results/$filename" \
@@ -236,7 +236,7 @@ for pdb_file in ./data/*.pdb; do
     filename=$(basename "$pdb_file" .pdb)
     echo "Processing $filename..." | tee -a $LOG_FILE
     
-    if python procleaveHub11.py \
+    if python OmniCleave.py \
         --inputpath "$pdb_file" \
         --pdb_path ./data \
         --outputpath "./results/$filename" \
@@ -283,7 +283,7 @@ def batch_process_pdbs(input_dir, output_dir, proteases, mode="Multi-protease"):
         
         # Build command
         cmd = [
-            "python", "procleaveHub11.py",
+            "python", "OmniCleave.py",
             "--inputpath", pdb_file,
             "--pdb_path" input_dir,
             "--outputpath", output_path,
@@ -345,7 +345,7 @@ if __name__ == "__main__":
    # Check if PDB file exists and path is correct
    ls -la ./data/your_file.pdb
    # Use absolute path if needed
-   python procleaveHub11.py --inputpath /absolute/path/to/file.pdb --pdb_path /absolute/path/to
+   python OmniCleave.py --inputpath /absolute/path/to/file.pdb --pdb_path /absolute/path/to
    ```
 
 3. **"Invalid protease ID" error:**
@@ -357,22 +357,22 @@ if __name__ == "__main__":
 4. **Memory issues with large proteins:**
    ```bash
    # Process specific positions instead of all positions
-   python procleaveHub11.py --poss "10,20,30,40,50" --inputpath large_protein.pdb ...
+   python OmniCleave.py --poss "10,20,30,40,50" --inputpath large_protein.pdb ...
    ```
 
 5. **CUDA out of memory:**
    ```bash
    # The model will automatically fall back to CPU if CUDA is not available
    # For large proteins, consider using specific positions only
-   python procleaveHub11.py --poss "5,10,15,20" --inputpath protein.pdb ...
+   python OmniCleave.py --poss "5,10,15,20" --inputpath protein.pdb ...
    ```
 
 ### Starting the Platform
 
 ```bash
 cd GUI
-conda activate procleavehub
-python ProcleaveHub_GUI_platform.py
+conda activate OmniCleave
+python OmniCleave_GUI.py
 ```
 
 ### Basic Workflow
