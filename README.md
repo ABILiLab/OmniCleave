@@ -74,7 +74,7 @@ python -c 'import pyrosetta_installer; pyrosetta_installer.install_pyrosetta()' 
 conda install pyrosetta # or install with wheel
 # https://graylab.jhu.edu/download/PyRosetta4/archive/release/
 ```
-When the program is executed for the first time, the esm pre-trained model (esm2_t33_650M_UR50D) will be downloaded, which takes a long time. For related code, see **get_esmfea()** in **features11.py**
+When the program is executed for the first time, the esm pre-trained model (esm2_t33_650M_UR50D) will be downloaded, which takes a long time. For related code, see **get_esmfea()** in **features.py**
 Install esm(https://pypi.org/project/fair-esm/) (https://github.com/facebookresearch/esm):
 ```bash
 pip install fair-esm # latest release, OR:
@@ -99,7 +99,7 @@ Main dependencies include:
 1. **MEROPS Database**: Ensure `Gui_data/MEROPS_identifier_Name.csv` file exists
 2. **Model Files**: Place trained models in the `models/` directory
 3. **3Dmol.js**: Place 3Dmol.js files in the `static/js/` directory (optional)
-4. **Merops id (proteases_str)** Merops id details will be found at (https://www.ebi.ac.uk/merops/cgi-bin/id_index?type=peptidase;action=A).
+4. **Merops identifier (proteases_str)** Merops id details will be found at (https://www.ebi.ac.uk/merops/cgi-bin/id_index?type=peptidase;action=A).
 ## User Guide
 
 ### Command Line Usage
