@@ -370,7 +370,7 @@ if __name__ == "__main__":
 ### Starting the Platform
 
 ```bash
-cd GUI
+cd OmniCleave
 conda activate OmniCleave
 python OmniCleave_GUI.py
 ```
