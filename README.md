@@ -109,7 +109,7 @@ OmniCleave also supports command line execution for batch processing and automat
 #### Basic Command Line Syntax
 
 ```bash
-python OmniCleave.py --inputpath <PDB_FILE> --outputpath <OUTPUT_DIR> --proteases_str <PROTEASES> [OPTIONS]
+python OmniCleave.py --inputpath <PDB_FILE> --outputpath <OUTPUT_DIR> --proteases_str <PROTEASES>
 ```
 
 #### Command Line Arguments
