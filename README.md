@@ -39,7 +39,7 @@ OmniCleave is a deep learning-based protein cleavage site prediction platform th
 
 ### Environment Setup
 
-1. Create conda environment:
+1. Create conda environment (Refer to https://www.anaconda.com/docs/getting-started/anaconda/install#linux-installer):
 ```bash
 conda create -n OmniCleave python=3.8
 conda activate OmniCleave
