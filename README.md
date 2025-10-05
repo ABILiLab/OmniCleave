@@ -21,6 +21,7 @@ OmniCleave is a deep learning-based protein cleavage site prediction platform th
 
 ## Features
 
+- **Protease-substrate interaction**: Supports Protease-substrate interaction prediction
 - **Multi-protease Support**: Supports cleavage site prediction for 103 proteases
 - **Intuitive GUI Interface**: User-friendly graphical interface
 - **Interactive Result Display**: Table filtering, network visualization, 3D structure analysis
