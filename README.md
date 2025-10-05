@@ -1,4 +1,4 @@
-# OmniCleave GUI Platform
+# OmniCleave
 
 OmniCleave is a deep learning-based protein cleavage site prediction platform that supports substrate cleavage site identification for 103 proteases. This GUI platform provides an intuitive graphical user interface, allowing users to easily perform protein cleavage site prediction, result visualization, and 3D structure analysis.
 
