@@ -487,13 +487,13 @@ class BlockGeoAffDataset(torch.utils.data.Dataset):
         with torch.no_grad():
 
             if not os.path.exists(self.feature_path + Uid + ".npy"):
-                features11.get_esmfea(self.dataset, self.feature_path,Uid) 
+                features.get_esmfea(self.dataset, self.feature_path,Uid) 
             if not os.path.exists(self.dataset_path + Uid + "_coord.npy"):
-                features11.get_coord(self.dataset, self.output_esmfold, self.pdb_path,self.chain)
+                features.get_coord(self.dataset, self.output_esmfold, self.pdb_path,self.chain)
             if not os.path.exists(self.dataset_path + Uid + "_dssp.npy"):
-                features11.get_dsspfea(self.dataset, self.pdb_path, self.output_dssp,self.chain)
+                features.get_dsspfea(self.dataset, self.pdb_path, self.output_dssp,self.chain)
             if not os.path.exists(self.feature_path + Uid + "_energy.npy"):
-                features11.get_energyfea(self.pdb_path,self.output_prottrans,Uid)
+                features.get_energyfea(self.pdb_path,self.output_prottrans,Uid)
             coords_all = torch.tensor(np.load(self.dataset_path + Uid + "_coord.npy"),dtype=torch.float32)
             prottrans_feat_all = torch.tensor(np.load(self.feature_path + Uid + ".npy"),dtype=torch.float32) 
             # energy features
