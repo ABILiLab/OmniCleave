@@ -1,6 +1,7 @@
 # OmniCleave
 
 Protease–substrate interactions play central roles in regulating cellular processes, shaping disease mechanisms, and informing therapeutic development. Despite their importance, there remains a major gap in computational frameworks that can comprehensively interrogate protease–substrate interactions at scale. Existing tools are largely protease-specific, rely heavily on local sequence motifs, and fail to capture the structural context and inter-protease relationships that underlie protease biology. To bridge this gap, this study developed ***OmniCleave***, a structure-aware geometric deep learning framework for systematic in silico analysis of protease–substrate interactions. OmniCleave integrates multi-scale protein graph representations with protease–protease interaction networks, enabling systematic analysis of protease–substrate interactions within a single unified model. By integrating structural context and protease–protease interaction networks, OmniCleave not only accurately predicts protease–substrate interactions but also systematically learns the underlying protease–protease relationships and the structural preferences of substrate cleavage sites. Importantly, OmniCleave’s predictions were experimentally validated, including the identification of three novel caspase-3 substrates and cleavage sites. To further facilitate broad adoption, we provide both a GUI tool and a webserver, freely available at (http://omnicleave.biotools.bio/index.php/index).
+![image](img/Main.png)
 
 ## Table of Contents
 
