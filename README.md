@@ -75,7 +75,7 @@ conda install pyrosetta # or install with wheel
 # https://graylab.jhu.edu/download/PyRosetta4/archive/release/
 ```
 When the program is executed for the first time, the esm pre-trained model (esm2_t33_650M_UR50D) will be downloaded, which takes a long time. For related code, see **get_esmfea()** in **features.py**. 
-Install esm(https://pypi.org/project/fair-esm/) (https://github.com/facebookresearch/esm):
+Install esm (https://pypi.org/project/fair-esm/) (https://github.com/facebookresearch/esm):
 ```bash
 pip install fair-esm # latest release, OR:
 pip install git+https://github.com/facebookresearch/esm.git 
